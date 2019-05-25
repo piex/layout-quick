@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "declaration": true,
+    "alwaysStrict": true,
+    "pretty": true,
+    "rootDir": "src",
+    "allowJs": false,
+    "jsx": "react",
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es2017",
+      "es2018.promise"
+    ],
+    "noEmitHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "suppressExcessPropertyErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [
+      "react"
+    ],
+    "baseUrl": "."
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+  ]
+}

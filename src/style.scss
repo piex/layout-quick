@@ -1,0 +1,43 @@
+@import "./style/reset.scss";
+@import "./style/colors.scss";
+@import "./style/card.scss";
+@import "./style/button.scss";
+@import "./style/menu.scss";
+@import "./style/blocks.scss";
+@import "./style/radio-group.scss";
+@import "./style/flow.scss";
+@import "./style/align-self.scss";
+@import "./style/grid-base.scss";
+@import "./style/grid-nested.scss";
+@import "./style/grid-minmax.scss";
+
+.box {
+  border: 1px solid gray;
+}
+
+.colorNested {
+  height: 200px;
+}
+
+.lower {
+  height: 200px;
+}
+
+.taller {
+  height: 300px;
+}
+
+.containerX {
+  box-sizing: content-box!important;
+  border: 2px solid #b6b6b6;
+}
+
+div.colorNested>div>div, 
+div.coloredContainerX>div {
+  padding: 8px;
+  box-shadow: 0 2px 5px 0 rgba(52,47,51,.63);
+  color: #fff;
+  text-align: center;
+  opacity: .9;
+}
+

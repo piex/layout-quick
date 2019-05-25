@@ -1,0 +1,24 @@
+.align-self-box{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  height: 100%;
+
+  .child {
+    flex: 1 1 0%;
+    box-sizing: border-box;
+    margin-right: 5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .target {
+    background-color: #05ffb0;
+    color: #310736;
+    cursor: pointer;
+  }
+}

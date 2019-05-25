@@ -1,0 +1,24 @@
+
+body {
+  margin: 50px;
+  background: #eee;
+  font-size: 16px;
+  font-family: Roboto,'Helvetica Neue',sans-serif;
+  line-height: 1.4;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-print-color-adjust: exact!important;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  
+}
+
+div {
+  box-sizing: border-box;
+}

@@ -1,0 +1,38 @@
+.grid-base {
+  display: grid;
+  padding: 5px;
+
+  grid-template-areas: "one one one" 
+                        "two three four" 
+                        "five five five";
+  grid-template-columns: 200px auto 120px;
+  gap: 20px 20px;
+
+  .child {
+    padding: 8px;
+    box-shadow: 0 2px 5px 0 rgba(52,47,51,.63);
+    color: #fff;
+    text-align: center;
+    opacity: .9;
+  }
+
+  .one {
+    grid-area: one;
+  }
+
+  .two {
+    grid-area: two;
+  }
+
+  .three {
+    grid-area: three;
+  }
+  
+  .four {
+    grid-area: four;
+  }
+
+  .five {
+    grid-area: five;
+  }
+}

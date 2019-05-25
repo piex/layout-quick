@@ -1,0 +1,47 @@
+.grid-nested {
+  display: grid;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  font-size: 150%;
+
+  grid-template-columns: [col] 150px [col] 150px [col] 150px [col] 150px;
+  gap: 20px 20px;
+  grid-template-rows: [row] auto [row] auto;
+
+  .blocks {
+    padding: 20px;
+  }
+
+  .one {
+    grid-area: row / col / row / span 2;
+  }
+
+  .two {
+    grid-area: row / 3 col / row / span 2;
+  }
+
+  .three {
+    grid-area: 2 row / col / auto / span 2;
+  }
+
+  .four {
+    display: grid;
+
+    grid-area: 2 row / 3 col / auto / span 2;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
+
+    .one {
+      grid-area: 1 / 1 / auto / 3;
+    }
+
+    .two {
+      grid-area: 2 / 1 / auto / auto;
+    }
+
+    .three {
+      grid-area: 2 / 2 / auto / auto;
+    }
+  }
+}

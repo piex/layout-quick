@@ -1,0 +1,92 @@
+
+.one,
+div.box1, 
+div.colorNested>div>div:nth-child(10n+1), 
+div.coloredContainerX>div:nth-child(10n+1) {
+  background-color: #009688;
+}
+
+.two,
+div.box2, 
+div.colorNested>div>div:nth-child(10n+2), 
+div.coloredContainerX>div:nth-child(10n+2) {
+  background-color: #3949ab;
+}
+
+.three,
+div.box3, 
+div.colorNested>div>div:nth-child(10n+3), 
+div.coloredChildren>div:nth-child(10n+3), div.coloredContainerX>div:nth-child(10n+3) {
+  background-color: #9c27b0;
+}
+
+div.colorNested>div>div:nth-child(10n+4), 
+div.coloredChildren>div:nth-child(10n+4), 
+div.coloredContainerX>div:nth-child(10n+4) {
+  background-color: #b08752;
+}
+
+div.colorNested>div>div:nth-child(10n+5), 
+div.coloredChildren>div:nth-child(10n+5), 
+div.coloredContainerX>div:nth-child(10n+5) {
+  background-color: #5ca6b0;
+}
+
+div.colorNested>div>div:nth-child(10n+6), 
+div.coloredChildren>div:nth-child(10n+6), 
+div.coloredContainerX>div:nth-child(10n+6) {
+  background-color: #8bc34a;
+}
+
+div.colorNested>div>div:nth-child(10n+7), 
+div.coloredChildren>div:nth-child(10n+7), 
+div.coloredContainerX>div:nth-child(10n+7) {
+  background-color: #9c27b0;
+}
+
+div.colorNested>div>div:nth-child(10n+8), 
+div.coloredChildren>div:nth-child(10n+8), 
+div.coloredContainerX>div:nth-child(10n+8) {
+  background-color: #c9954e;
+}
+
+div.colorNested>div>div:nth-child(10n+9), 
+div.coloredChildren>div:nth-child(10n+9), 
+div.coloredContainerX>div:nth-child(10n+9) {
+  background-color: #ff5722;
+}
+
+div.colorNested>div>div:nth-child(10n), 
+div.coloredChildren>div:nth-child(10n), 
+div.coloredContainerX>div:nth-child(10n) {
+  background-color: #03a9f4;
+}
+
+.four, div.colored>div:nth-child(10n+4) {
+  background-color: #8bc34a;
+}
+
+.five, div.colored>div:nth-child(10n+5) {
+  background-color: #03a9f4;
+}
+
+.six, 
+div.colored>div:nth-child(10n+6) {
+  background-color: #c9954e;
+}
+
+.seven, 
+div.colored>div:nth-child(10n+7) {
+  background-color: #ff5722;
+}
+
+.black {
+  padding: 8px;
+  min-width: 75px;
+  min-height: 50px;
+  border-radius: 5px;
+  background-color: #292929;
+  box-shadow: 0 2px 5px 0 rgba(52,47,51,.63);
+  color: #fff;
+  text-align: center;
+}
