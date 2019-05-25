@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "rm -rf ./dist && parcel build index.html",
+    "build": "rm -rf ./dist && parcel build --public-url '/layout-demo' index.html",
     "lint": "eslint './' --ext '.ts,tsx'",
     "gh-pages": "node ./scripts/gh-pages.js",
     "deploy": "yarn run lint && yarn run build && yarn run gh-pages"
