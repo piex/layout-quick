@@ -10,7 +10,7 @@ function main() {
     './dist',
     {
       branch: 'gh-pages',
-      repo: 'http://gitlab.qima-inc.com/zhangmingyuan/ebiz-hooks.git',
+      repo: 'https://github.com/piex/layout-demo.git',
     },
     callback,
   );
