@@ -6,8 +6,7 @@ const Menu: FC<{}> = () => {
     <article className="menu">
       <header>
         <h2 className="menu-title">Layout Quick：快速布局</h2>
-        <p className="menu-subtitle">使用 flex、grid 等实现的的一些布局 Demo，快速实现页面布局，参考：
-          <a href="https://tburleson-layouts-demos.firebaseapp.com" target="_black">Angular Flex</a>
+        <p className="menu-subtitle">使用 flex、grid 等实现的的一些布局 Demo，快速实现页面布局，参考<a href="https://tburleson-layouts-demos.firebaseapp.com" target="_black">Angular Flex</a>，纯 CSS 实现。
         </p>
         <div className="menu-actions">
           <Link to="/flex"><button className="button">Flex</button></Link>
