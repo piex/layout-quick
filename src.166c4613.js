@@ -94,4 +94,4 @@ var t=arguments[3];Object.defineProperty(exports,"__esModule",{value:!0}),export
 },{"react":"HdMw","react-router-dom":"rx6s","./Menu":"6eig","./flex":"ayN/","./grid":"D4aP"}],"OGgv":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=require("react-dom");require("./style.scss");var t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}(0,r.render)(e.default.createElement(t.default,null),document.getElementById("app"));
 },{"react":"HdMw","react-dom":"X9zx","./style.scss":"T0VR","./App":"Ru8j"}]},{},["OGgv"], null)
-//# sourceMappingURL=/src.166c4613.js.map
+//# sourceMappingURL=/layout-demo/src.166c4613.js.map
