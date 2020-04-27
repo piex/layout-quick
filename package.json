@@ -1,12 +1,12 @@
 {
-  "name": "layout-demo",
+  "name": "layout-quick",
   "version": "1.0.0",
   "description": "使用 flex、grid 等实现的的一些布局 Demo，快速实现页面布局",
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "rm -rf ./dist && parcel build --public-url '/layout-demo' index.html",
+    "build": "rm -rf ./dist && parcel build --public-url '/layout-quick' index.html",
     "lint": "eslint './' --ext '.ts,tsx'",
     "gh-pages": "node ./scripts/gh-pages.js",
     "deploy": "yarn run lint && yarn run build && yarn run gh-pages"

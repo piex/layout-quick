@@ -10,7 +10,7 @@ function main() {
     './dist',
     {
       branch: 'gh-pages',
-      repo: 'https://github.com/piex/layout-demo.git',
+      repo: 'https://github.com/piex/layout-quick.git',
     },
     callback,
   );
