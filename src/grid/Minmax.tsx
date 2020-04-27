@@ -26,6 +26,20 @@ const Minmax: FC<{}> = () => {
           </div>
         </div>
       </div>
+      <div className="card-footer">
+        <h3>CSS：</h3>
+        <pre>
+          <code>
+            {`    .parent {
+      display: grid;
+      padding: 5px;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px 10px;
+    }`
+            }
+          </code>
+        </pre>
+      </div>
     </section>
   );
 };

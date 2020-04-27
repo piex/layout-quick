@@ -16,6 +16,64 @@ const Base: FC<{}> = () => {
           </div>
         </div>
       </div>
+      <div className="card-footer">
+        <h3>CSS：</h3>
+
+        <div className="card-footer-content">
+          <pre>
+            <code>
+              {`    .parent {
+      display: grid;
+      padding: 5px;
+
+      grid-template-areas: "one one one" 
+                            "two three four" 
+                            "five five five";
+      grid-template-columns: 200px auto 120px;
+      gap: 20px 20px;
+    }`
+              }
+            </code>
+          </pre>
+          <pre>
+            <code>
+              {`    .child {
+        padding: 8px;
+        box-shadow: 0 2px 5px 0 rgba(52,47,51,.63);
+        color: #fff;
+        text-align: center;
+        opacity: .9;
+      }
+
+      .one {
+        grid-area: one;
+      }`
+              }
+            </code>
+          </pre>
+          <pre>
+            <code>
+              {`    .two {
+        grid-area: two;
+      }
+    
+      .three {
+        grid-area: three;
+      }
+      
+      .four {
+        grid-area: four;
+      }
+    
+      .five {
+        grid-area: five;
+      }
+    }`
+              }
+            </code>
+          </pre>
+        </div>
+      </div>
     </section>
   );
 };

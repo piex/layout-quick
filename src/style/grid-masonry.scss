@@ -1,0 +1,10 @@
+.grid-masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: space-around;
+  gap: 10px 0;
+
+  .child {
+    width: 300px;
+  }
+}
